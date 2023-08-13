@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://www.navi-coder.com/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-  </url><url>
-    <loc>https://www.navi-coder.com/posts/my-second-demo/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-  </url><url>
-    <loc>https://www.navi-coder.com/posts/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-  </url><url>
-    <loc>https://www.navi-coder.com/posts/my-first-demo/</loc>
-    <lastmod>2023-08-13T17:12:32+08:00</lastmod>
-  </url><url>
-    <loc>https://www.navi-coder.com/categories/</loc>
-  </url><url>
-    <loc>https://www.navi-coder.com/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://www.navi-coder.com/en/sitemap.xml</loc>
+    
+      <lastmod>2023-08-13T20:22:55+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://www.navi-coder.com/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
