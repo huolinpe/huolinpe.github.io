@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/posts/my-first-demo/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
-            <loc>/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
-            <loc>/posts/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
-            <loc>/categories/</loc></url><url>
-            <loc>/tags/</loc></url></urlset>
+            <loc>https://www.navi-coder.com/posts/my-first-demo/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.navi-coder.com/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.navi-coder.com/posts/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://www.navi-coder.com/categories/</loc></url><url>
+            <loc>https://www.navi-coder.com/tags/</loc></url></urlset>

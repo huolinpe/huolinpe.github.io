@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>My New Hugo Site</title>
-        <link>/</link>
+        <link>https://www.navi-coder.com/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</lastBuildDate>
-            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://www.navi-coder.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>My First Demo</title>
-    <link>/posts/my-first-demo/</link>
+    <link>https://www.navi-coder.com/posts/my-first-demo/</link>
     <pubDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>/posts/my-first-demo/</guid>
+    <guid>https://www.navi-coder.com/posts/my-first-demo/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
