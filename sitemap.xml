@@ -2,7 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/</loc></url><url>
-            <loc>http://example.org/posts/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>https://huolinpe/huolinpe.github.io/posts/my-first-demo/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://huolinpe/huolinpe.github.io/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://huolinpe/huolinpe.github.io/posts/</loc><lastmod>2023-08-13T17:12:32&#43;08:00</lastmod></url><url>
+            <loc>https://huolinpe/huolinpe.github.io/categories/</loc></url><url>
+            <loc>https://huolinpe/huolinpe.github.io/tags/</loc></url></urlset>
