@@ -1,17 +1,29 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>My New Hugo Site</title>
-        <link>https://www.navi-coder.com/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</lastBuildDate>
-            <atom:link href="https://www.navi-coder.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>My First Demo</title>
-    <link>https://www.navi-coder.com/posts/my-first-demo/</link>
-    <pubDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://www.navi-coder.com/posts/my-first-demo/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://www.navi-coder.com/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Aug 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Demo</title>
+      <link>https://www.navi-coder.com/posts/my-second-demo/</link>
+      <pubDate>Sun, 13 Aug 2023 20:22:55 +0800</pubDate>
+      
+      <guid>https://www.navi-coder.com/posts/my-second-demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Demo</title>
+      <link>https://www.navi-coder.com/posts/my-first-demo/</link>
+      <pubDate>Sun, 13 Aug 2023 17:12:32 +0800</pubDate>
+      
+      <guid>https://www.navi-coder.com/posts/my-first-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
