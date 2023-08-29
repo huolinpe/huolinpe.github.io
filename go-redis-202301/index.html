@@ -4,38 +4,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>My Second Demo - HuLiPin</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:title" content="My Second Demo" />
-<meta property="og:description" content="" />
+        <title>Go-redis源码解析 - HuLiPin</title><meta name="Description" content="go-redis源码解析"><meta property="og:title" content="Go-redis源码解析" />
+<meta property="og:description" content="go-redis源码解析" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.navi-coder.com/my-second-demo/" /><meta property="og:image" content="https://www.navi-coder.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://www.navi-coder.com/go-redis-202301/" /><meta property="og:image" content="https://www.navi-coder.com/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-13T20:22:55+08:00" />
 <meta property="article:modified_time" content="2023-08-13T20:22:55+08:00" /><meta property="og:site_name" content="HuLiPin" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.navi-coder.com/logo.png"/>
 
-<meta name="twitter:title" content="My Second Demo"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Go-redis源码解析"/>
+<meta name="twitter:description" content="go-redis源码解析"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.navi-coder.com/my-second-demo/" /><link rel="next" href="https://www.navi-coder.com/my-first-demo/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.navi-coder.com/go-redis-202301/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "My Second Demo",
+        "headline": "Go-redis源码解析",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/www.navi-coder.com\/my-second-demo\/"
-        },"image": ["https:\/\/www.navi-coder.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  0 ,
-        "url": "https:\/\/www.navi-coder.com\/my-second-demo\/","datePublished": "2023-08-13T20:22:55+08:00","dateModified": "2023-08-13T20:22:55+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "https:\/\/www.navi-coder.com\/go-redis-202301\/"
+        },"image": ["https:\/\/www.navi-coder.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "redis, golang","wordcount":  16 ,
+        "url": "https:\/\/www.navi-coder.com\/go-redis-202301\/","datePublished": "2023-08-13T20:22:55+08:00","dateModified": "2023-08-13T20:22:55+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/www.navi-coder.com\/images\/avatar.png"},"author": {
                 "@type": "Person",
-                "name": "xxxx"
-            },"description": ""
+                "name": "[hulipin]"
+            },"description": "go-redis源码解析"
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -61,7 +61,7 @@
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
                 </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
                     <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/my-second-demo/" selected>English</option></select>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/go-redis-202301/" selected>English</option></select>
                 </a></div>
         </div>
     </div>
@@ -95,7 +95,7 @@
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/my-second-demo/" selected>English</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/go-redis-202301/" selected>English</option></select>
                 </a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -107,10 +107,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">My Second Demo</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-13">2023-08-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;<span id="/my-second-demo/" class="leancloud_visitors" data-flag-title="My Second Demo">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Go-redis源码解析</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>[hulipin]</a></span>&nbsp;<span class="post-category">included in <a href="/categories/golang/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Golang</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-13">2023-08-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;16 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/go-redis-202301/" class="leancloud_visitors" data-flag-title="Go-redis源码解析">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -119,7 +119,22 @@
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+            </div><div class="content" id="content"><p>本文对github上的go实现的redis客户端源码解析。</p>
+<p>顾名思义，redis客户端作用是把redis命令发送到redis后端服务器执行，服务器执行完毕后将该次结果返回给客户端。从技术实现上来讲，首先客户端建立一条连接到redis后端的连接，
+然后将要执行的redis命令及输入的key，value等参数，以和服务端约定的RESP协议编码为字符串数据，再把数据写入连接来向redis服务器发送命令数据，待服务端收到命令数据处理完毕后把回复字符串写入该连接，客户端即可通过连接读取到回复，再根据RESP通信协议解码返回的字符串数据则可得到服务端命令回复。</p>
+<p>Go-redis的实现更为复杂些，首先，维护一个连接池来创建并管理多个连向服务端的连接，客户端每次执行一个redis命令时可直接从连接池中取一个空闲连接，命令执行完毕后再将连接放回到连接池中。其次，它还通过我们常用的增加过滤器（或者middleware）接口的方式，提供我们在每个redis命令发送到服务端执行前后增加自定义的处理逻辑。给每个执行命令增加的功能。源码主要通过创建并初始化一个Client结构体来实现整个客户端功能，Client结构体中有baseClient、cmdable、hooksMixin三个字段，分别对应连接池、具体的redis命令调用函数、过滤器三部分。下图描绘了整个Client结构初始化和执行某个命令的函数调用图.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/go-redis.png"
+        data-srcset="/images/go-redis.png, /images/go-redis.png 1.5x, /images/go-redis.png 2x"
+        data-sizes="auto"
+        alt="/images/go-redis.png"
+        title="img" /></p>
+<p>hooksMixin：类似各种后端Web框架中的过滤器（middleware，洋葱结构）。通过调用AddHook函数增加新的Hook到处理链中，同时每次调用chain函数重组成一条新的hooks结构的处理链，Hook“吃一个“旧DialHook”吐一个“新DialHook出来，”吃一个“ProcessHook吐一个ProcessHook出来，最后一次吐出来的存储在current中作为执行redis命令调用入口。</p>
+<p>最终组成如下的处理链，current值即为处理链的第一环Hook1。</p>
+<p>Hook1 → Hook2 → … → Hookn → initial-Hook</p>
+<p>Cmdable：这个函数根据redis命令名及其参数构造一个对应的新命令Cmder，之后通过调用自身函数来开始redis命令执行逻辑，同时它也起到连接池和函数处理链的中介桥接作用。</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -127,23 +142,22 @@
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/my-second-demo/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/go-redis-202301/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.navi-coder.com/my-second-demo/" data-title="My Second Demo" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.navi-coder.com/my-second-demo/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.navi-coder.com/my-second-demo/" data-title="My Second Demo"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.navi-coder.com/my-second-demo/" data-title="My Second Demo"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.navi-coder.com/my-second-demo/" data-title="My Second Demo"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://www.navi-coder.com/go-redis-202301/" data-title="Go-redis源码解析" data-via="xxxx" data-hashtags="redis,golang"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://www.navi-coder.com/go-redis-202301/" data-hashtag="redis"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://www.navi-coder.com/go-redis-202301/" data-title="Go-redis源码解析"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://www.navi-coder.com/go-redis-202301/" data-title="Go-redis源码解析"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://www.navi-coder.com/go-redis-202301/" data-title="Go-redis源码解析"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/redis/">redis</a>,&nbsp;<a href="/tags/golang/">golang</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/my-first-demo/" class="next" rel="next" title="Go-redis源码解析">Go-redis源码解析<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

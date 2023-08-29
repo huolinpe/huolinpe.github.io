@@ -2,62 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.navi-coder.com/my-first-demo/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.navi-coder.com/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
+    <loc>https://www.navi-coder.com/en/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://www.navi-coder.com/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.navi-coder.com/"
-                />
-  </url><url>
-    <loc>https://www.navi-coder.com/my-second-demo/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.navi-coder.com/posts/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.navi-coder.com/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://www.navi-coder.com/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://www.navi-coder.com/categories/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.navi-coder.com/en/categories/"
+                />
   </url><url>
-    <loc>https://www.navi-coder.com/tags/</loc>
+    <loc>https://www.navi-coder.com/en/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://www.navi-coder.com/zh-cn/tags/"
+                href="https://www.navi-coder.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://www.navi-coder.com/en/"
+                />
+  </url><url>
+    <loc>https://www.navi-coder.com/en/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
                 href="https://www.navi-coder.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.navi-coder.com/en/tags/"
                 />
   </url>
 </urlset>

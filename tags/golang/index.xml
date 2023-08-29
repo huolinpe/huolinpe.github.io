@@ -1,15 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>golang - Tag - LoveIt</title>
-        <link>https://www.navi-coder.com/tags/golang/</link>
-        <description>golang - Tag - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</lastBuildDate><atom:link href="https://www.navi-coder.com/tags/golang/" rel="self" type="application/rss+xml" /><item>
-    <title>Go语言：uint test</title>
-    <link>https://www.navi-coder.com/my-first-demo/</link>
-    <pubDate>Sun, 13 Aug 2023 17:12:32 &#43;0800</pubDate>
-    <author>[huolinpe(thorinhu)]</author>
-    <guid>https://www.navi-coder.com/my-first-demo/</guid>
-    <description><![CDATA[Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on HuLiPin</title>
+    <link>https://www.navi-coder.com/tags/golang/</link>
+    <description>Recent content in golang on HuLiPin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>huolinpe@163.com (HuLiPin)</managingEditor>
+    <webMaster>huolinpe@163.com (HuLiPin)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 13 Aug 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go-redis源码解析</title>
+      <link>https://www.navi-coder.com/my-first-demo/</link>
+      <pubDate>Sun, 13 Aug 2023 20:22:55 +0800</pubDate>
+      <author>huolinpe@163.com (HuLiPin)</author>
+      <guid>https://www.navi-coder.com/my-first-demo/</guid>
+      <description>&lt;p&gt;本文对github上的go实现的redis客户端源码解析。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>
