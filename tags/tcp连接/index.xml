@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HuLiPin</title>
-    <link>https://www.navi-coder.com/</link>
-    <description>Recent content on HuLiPin</description>
+    <title>TCP连接 on HuLiPin</title>
+    <link>https://www.navi-coder.com/tags/tcp%E8%BF%9E%E6%8E%A5/</link>
+    <description>Recent content in TCP连接 on HuLiPin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <managingEditor>huolinpe@163.com (HuLiPin)</managingEditor>
     <webMaster>huolinpe@163.com (HuLiPin)</webMaster>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 13 Oct 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Oct 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/tags/tcp%E8%BF%9E%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP连接是什么？</title>
       <link>https://www.navi-coder.com/tcp%E8%BF%9E%E6%8E%A5/</link>
@@ -17,15 +17,6 @@
       <author>huolinpe@163.com (HuLiPin)</author>
       <guid>https://www.navi-coder.com/tcp%E8%BF%9E%E6%8E%A5/</guid>
       <description>&lt;p&gt;本文对TCP连接的底层解析。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Go-redis源码解析</title>
-      <link>https://www.navi-coder.com/my-first-demo/</link>
-      <pubDate>Sun, 13 Aug 2023 20:22:55 +0800</pubDate>
-      <author>huolinpe@163.com (HuLiPin)</author>
-      <guid>https://www.navi-coder.com/my-first-demo/</guid>
-      <description>&lt;p&gt;本文对github上的go实现的redis客户端源码解析。&lt;/p&gt;</description>
     </item>
     
   </channel>

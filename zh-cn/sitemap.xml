@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.navi-coder.com/categories/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -16,6 +16,56 @@
                 hreflang="zh-CN"
                 href="https://www.navi-coder.com/categories/"
                 />
+  </url><url>
+    <loc>https://www.navi-coder.com/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.navi-coder.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://www.navi-coder.com/"
+                />
+  </url><url>
+    <loc>https://www.navi-coder.com/posts/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.navi-coder.com/tags/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.navi-coder.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://www.navi-coder.com/tags/"
+                />
+  </url><url>
+    <loc>https://www.navi-coder.com/tags/tcp%E8%BF%9E%E6%8E%A5/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.navi-coder.com/tcp%E8%BF%9E%E6%8E%A5/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.navi-coder.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-10-13T20:22:55+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://www.navi-coder.com/my-first-demo/</loc>
     <lastmod>2023-08-13T20:22:55+08:00</lastmod>
@@ -32,44 +82,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.navi-coder.com/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.navi-coder.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://www.navi-coder.com/"
-                />
-  </url><url>
-    <loc>https://www.navi-coder.com/posts/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.navi-coder.com/tags/redis/</loc>
     <lastmod>2023-08-13T20:22:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.navi-coder.com/tags/</loc>
-    <lastmod>2023-08-13T20:22:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.navi-coder.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://www.navi-coder.com/tags/"
-                />
   </url>
 </urlset>

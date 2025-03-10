@@ -9,7 +9,16 @@
     <managingEditor>huolinpe@163.com (HuLiPin)</managingEditor>
     <webMaster>huolinpe@163.com (HuLiPin)</webMaster>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 13 Aug 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Oct 2023 20:22:55 +0800</lastBuildDate><atom:link href="https://www.navi-coder.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCP连接是什么？</title>
+      <link>https://www.navi-coder.com/tcp%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Fri, 13 Oct 2023 20:22:55 +0800</pubDate>
+      <author>huolinpe@163.com (HuLiPin)</author>
+      <guid>https://www.navi-coder.com/tcp%E8%BF%9E%E6%8E%A5/</guid>
+      <description>&lt;p&gt;本文对TCP连接的底层解析。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Go-redis源码解析</title>
       <link>https://www.navi-coder.com/my-first-demo/</link>
